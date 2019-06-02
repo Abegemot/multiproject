@@ -77,7 +77,7 @@ class KServiceGrpcImpl : KServiceGrpc.KServiceImplBase() {
 
 
     override fun addUpdateUser(user: User?, responseObserver: StreamObserver<NewId>?) {
-        logger.warn { "addUpdateUser" }
+        logger.warn { "addUpdateUsersss" }
         val reply = NewId.newBuilder()
  //       if (user != null) //logger.error(" addUpdateUser " + execute { id = addupdateUserDB(user) })
 /*            reply.id = try {
